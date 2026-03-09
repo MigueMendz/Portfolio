@@ -114,7 +114,7 @@ export function Contact() {
                   className="text-[clamp(1.2rem,3vw,1.6rem)] text-white mb-1"
                   style={{ fontWeight: 700 }}
                 >
-                  Tu Nombre
+                  Miguel Mendoza
                 </h3>
                 <p className="text-[14px] mb-4" style={{ fontWeight: 400, color: "rgba(255,255,255,0.5)" }}>
                   Ingeniero en Software · Backend Developer
