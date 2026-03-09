@@ -14,7 +14,7 @@ export function Footer() {
             {" />"}
           </span>
           <span className="text-[13px]" style={{ fontWeight: 400, color: "rgba(0,0,0,0.35)" }}>
-            · © 2025
+            · © 2026
           </span>
         </div>
 
