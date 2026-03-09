@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { GraduationCap, Code2, Trophy, Heart, Folder, ExternalLink, Github } from "lucide-react";
+import { GraduationCap, Code2, Trophy, Folder, Briefcase } from "lucide-react";
 import { FadeIn } from "./FadeIn";
 
 const timelineData = [
@@ -8,7 +8,7 @@ const timelineData = [
     title: "HIGHTECH PROCESS COUNSELORS",
     subtitle: "Desarrollador Full Stack · Remoto · CDMX",
     description: "Plataforma de contratación de servicios profesionales con sistema de verificación de documentos. A cargo del Backend (PHP Laravel, MVC, MySQL) y Frontend (ReactJS, Redux). Implementé autenticación JWT, integración AWS S3 y comunicación API RESTful.",
-    type: "academic" as const,
+    type: "work" as const,
     tags: ["PHP Laravel", "ReactJS", "MySQL", "Redis", "JWT", "AWS S3", "GitLab"],
   },
   {
@@ -32,9 +32,8 @@ const timelineData = [
     title: "CONSULTORIO DR. CHRISTIAN CANCINO",
     subtitle: "Desarrollador Full Stack · Remoto",
     description: "Página web y API RESTful con arquitectura MVC para consultorio médico. Sistema de citas con notificaciones al doctor, gestión de pacientes y modelado de base de datos.",
-    type: "personal" as const,
+    type: "work" as const,
     tags: ["ReactJS", "JavaScript", "Tailwind", "Redux", "Hooks", "Postman", "GitHub"],
-    link: "https://github.com",
   },
 ];
 
@@ -42,7 +41,7 @@ const typeConfig = {
   academic: { icon: GraduationCap, label: "Académico", color: "#0071E3" },
   personal: { icon: Code2, label: "Personal", color: "#34C759" },
   hackathon: { icon: Trophy, label: "Hackathon", color: "#FF9500" },
-  volunteer: { icon: Heart, label: "Voluntariado", color: "#FF2D55" },
+  work: { icon: Briefcase , label: "Trabajo", color: "#FF2D55" },
 };
 
 export function Experience() {
@@ -120,11 +119,6 @@ export function Experience() {
                             </span>
                           ))}
                         </div>
-                        {item.link && (
-                          <a href={item.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[12px] mt-2 hover:gap-2.5 transition-all" style={{ fontWeight: 600, color: "#0071E3" }}>
-                            <Github size={13} /> Ver en GitHub <ExternalLink size={11} />
-                          </a>
-                        )}
                       </motion.div>
                     </div>
                   </div>

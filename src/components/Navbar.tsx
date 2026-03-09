@@ -11,7 +11,7 @@ const navLinks = [
 
 const Logo = () => (
   <span className="text-[15px]" style={{ fontWeight: 700, color: "#000" }}>
-    {"<"}<span style={{ color: "#0071E3" }}>Dev</span>{" />"}
+    {"<"}<span style={{ color: "#0071E3" }}>Software</span>{" />"}
   </span>
 );
 

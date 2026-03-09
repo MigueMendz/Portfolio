@@ -4,9 +4,9 @@ import { FadeIn } from "./FadeIn";
 
 const certifications = [
   { platform: "Coursera", title: "Programa especializado: Ciberseguridad de Google", year: "2024", color: "#0056D2" },
-  { platform: "Cisco", title: "Introduction to Cybersecurity", year: "2024", color: "#A435F0" },
-  { platform: "Aws", title: "AWS Academy Graduate - AWS Academy Cloud Operations", year: "2023", color: "#0A0A23" },
-  { platform: "Aws", title: "AWS Academy Graduate - AWS Academy Cloud Foundations", year: "2023", color: "#A435F0" },
+  { platform: "Cisco", title: "Introduction to Cybersecurity", year: "2024", color: "#0056D2" },
+  { platform: "Aws", title: "AWS Academy Graduate - AWS Academy Cloud Operations", year: "2023", color: "#f07c00" },
+  { platform: "Aws", title: "AWS Academy Graduate - AWS Academy Cloud Foundations", year: "2023", color: "#f07c00" },
 ];
 
 const courses = [

@@ -10,7 +10,7 @@ const contactCards = [
     value: "Miguel",
     href: "miguemendz.dev@gmail.com",
     color: "#0071E3",
-    description: "Respondo en menos de 24h",
+    description: "Respondo en menos de 8h",
   },
   {
     icon: Linkedin,
@@ -141,7 +141,7 @@ export function Contact() {
                       border: "1px solid rgba(255,255,255,0.08)",
                     }}
                   >
-                    Remoto / CDMX
+                    Remoto / México
                   </span>
                 </div>
               </div>

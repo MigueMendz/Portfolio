@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex items-center gap-2">
           <span className="text-[14px]" style={{ fontWeight: 700, color: "#000" }}>
             {"<"}
-            <span style={{ color: "#0071E3" }}>Dev</span>
+            <span style={{ color: "#0071E3" }}>Software</span>
             {" />"}
           </span>
           <span className="text-[13px]" style={{ fontWeight: 400, color: "rgba(0,0,0,0.35)" }}>
