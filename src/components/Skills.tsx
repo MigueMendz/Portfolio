@@ -76,7 +76,7 @@ const categories: SkillCategory[] = [
   },
 ];
 
-function SkillCard({ skill, index }: { skill: Skill; index: number }) {
+function Skill({ skill, index }: { skill: Skill; index: number }) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
@@ -168,7 +168,7 @@ export function Skills() {
                 {/* Skills Grid */}
                 <div className="grid grid-cols-2 gap-3">
                   {category.skills.map((skill, i) => (
-                    <SkillCard key={skill.name} skill={skill} index={i + catIndex * 2} />
+                    <Skill key={skill.name} skill={skill} index={i + catIndex * 2} />
                   ))}
                 </div>
               </div>

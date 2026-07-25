@@ -12,10 +12,11 @@ export default function App() {
       <Navbar />
       <Hero />
       <Education />
-      <Experience />
       <Skills />
+      <Experience />
       <Contact />
       <Footer />
     </div>
   );
 }
+  
